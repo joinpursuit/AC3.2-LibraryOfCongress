@@ -1,0 +1,322 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A7AACA0D1DC5A34100D0FCAB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7AACA0C1DC5A34100D0FCAB /* AppDelegate.swift */; };
+		A7AACA121DC5A34200D0FCAB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A7AACA101DC5A34200D0FCAB /* Main.storyboard */; };
+		A7AACA141DC5A34200D0FCAB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A7AACA131DC5A34200D0FCAB /* Assets.xcassets */; };
+		A7AACA171DC5A34200D0FCAB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A7AACA151DC5A34200D0FCAB /* LaunchScreen.storyboard */; };
+		A7AACA1F1DC5A3AF00D0FCAB /* LibraryOfCongressTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7AACA1E1DC5A3AF00D0FCAB /* LibraryOfCongressTableViewController.swift */; };
+		A7AACA211DC5A4BC00D0FCAB /* Print.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7AACA201DC5A4BC00D0FCAB /* Print.swift */; };
+		A7AACA231DC5A4EB00D0FCAB /* APImanager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7AACA221DC5A4EB00D0FCAB /* APImanager.swift */; };
+		A7AACA251DC5BE3800D0FCAB /* DetailLibraryOfCongressViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7AACA241DC5BE3800D0FCAB /* DetailLibraryOfCongressViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A7AACA091DC5A34100D0FCAB /* LibraryOfCongress.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LibraryOfCongress.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A7AACA0C1DC5A34100D0FCAB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A7AACA111DC5A34200D0FCAB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A7AACA131DC5A34200D0FCAB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A7AACA161DC5A34200D0FCAB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A7AACA181DC5A34200D0FCAB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A7AACA1E1DC5A3AF00D0FCAB /* LibraryOfCongressTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LibraryOfCongressTableViewController.swift; sourceTree = "<group>"; };
+		A7AACA201DC5A4BC00D0FCAB /* Print.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Print.swift; sourceTree = "<group>"; };
+		A7AACA221DC5A4EB00D0FCAB /* APImanager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APImanager.swift; sourceTree = "<group>"; };
+		A7AACA241DC5BE3800D0FCAB /* DetailLibraryOfCongressViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DetailLibraryOfCongressViewController.swift; path = ../DetailLibraryOfCongressViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A7AACA061DC5A34100D0FCAB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A7AACA001DC5A34100D0FCAB = {
+			isa = PBXGroup;
+			children = (
+				A7AACA0B1DC5A34100D0FCAB /* LibraryOfCongress */,
+				A7AACA0A1DC5A34100D0FCAB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A7AACA0A1DC5A34100D0FCAB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A7AACA091DC5A34100D0FCAB /* LibraryOfCongress.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A7AACA0B1DC5A34100D0FCAB /* LibraryOfCongress */ = {
+			isa = PBXGroup;
+			children = (
+				A7AACA201DC5A4BC00D0FCAB /* Print.swift */,
+				A7AACA221DC5A4EB00D0FCAB /* APImanager.swift */,
+				A7AACA0C1DC5A34100D0FCAB /* AppDelegate.swift */,
+				A7AACA1E1DC5A3AF00D0FCAB /* LibraryOfCongressTableViewController.swift */,
+				A7AACA241DC5BE3800D0FCAB /* DetailLibraryOfCongressViewController.swift */,
+				A7AACA101DC5A34200D0FCAB /* Main.storyboard */,
+				A7AACA131DC5A34200D0FCAB /* Assets.xcassets */,
+				A7AACA151DC5A34200D0FCAB /* LaunchScreen.storyboard */,
+				A7AACA181DC5A34200D0FCAB /* Info.plist */,
+			);
+			path = LibraryOfCongress;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A7AACA081DC5A34100D0FCAB /* LibraryOfCongress */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A7AACA1B1DC5A34200D0FCAB /* Build configuration list for PBXNativeTarget "LibraryOfCongress" */;
+			buildPhases = (
+				A7AACA051DC5A34100D0FCAB /* Sources */,
+				A7AACA061DC5A34100D0FCAB /* Frameworks */,
+				A7AACA071DC5A34100D0FCAB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LibraryOfCongress;
+			productName = LibraryOfCongress;
+			productReference = A7AACA091DC5A34100D0FCAB /* LibraryOfCongress.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A7AACA011DC5A34100D0FCAB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0800;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = C4Q;
+				TargetAttributes = {
+					A7AACA081DC5A34100D0FCAB = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = P29FUG645U;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = A7AACA041DC5A34100D0FCAB /* Build configuration list for PBXProject "LibraryOfCongress" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A7AACA001DC5A34100D0FCAB;
+			productRefGroup = A7AACA0A1DC5A34100D0FCAB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A7AACA081DC5A34100D0FCAB /* LibraryOfCongress */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A7AACA071DC5A34100D0FCAB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A7AACA171DC5A34200D0FCAB /* LaunchScreen.storyboard in Resources */,
+				A7AACA141DC5A34200D0FCAB /* Assets.xcassets in Resources */,
+				A7AACA121DC5A34200D0FCAB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A7AACA051DC5A34100D0FCAB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A7AACA251DC5BE3800D0FCAB /* DetailLibraryOfCongressViewController.swift in Sources */,
+				A7AACA231DC5A4EB00D0FCAB /* APImanager.swift in Sources */,
+				A7AACA0D1DC5A34100D0FCAB /* AppDelegate.swift in Sources */,
+				A7AACA1F1DC5A3AF00D0FCAB /* LibraryOfCongressTableViewController.swift in Sources */,
+				A7AACA211DC5A4BC00D0FCAB /* Print.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A7AACA101DC5A34200D0FCAB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A7AACA111DC5A34200D0FCAB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A7AACA151DC5A34200D0FCAB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A7AACA161DC5A34200D0FCAB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A7AACA191DC5A34200D0FCAB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A7AACA1A1DC5A34200D0FCAB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A7AACA1C1DC5A34200D0FCAB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = P29FUG645U;
+				INFOPLIST_FILE = LibraryOfCongress/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = nyc.c4q.anama.LibraryOfCongress;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		A7AACA1D1DC5A34200D0FCAB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = P29FUG645U;
+				INFOPLIST_FILE = LibraryOfCongress/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = nyc.c4q.anama.LibraryOfCongress;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A7AACA041DC5A34100D0FCAB /* Build configuration list for PBXProject "LibraryOfCongress" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A7AACA191DC5A34200D0FCAB /* Debug */,
+				A7AACA1A1DC5A34200D0FCAB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A7AACA1B1DC5A34200D0FCAB /* Build configuration list for PBXNativeTarget "LibraryOfCongress" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A7AACA1C1DC5A34200D0FCAB /* Debug */,
+				A7AACA1D1DC5A34200D0FCAB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A7AACA011DC5A34100D0FCAB /* Project object */;
+}

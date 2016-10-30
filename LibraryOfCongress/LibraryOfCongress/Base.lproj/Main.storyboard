@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11201" systemVersion="15G1004" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="UV9-9Y-ccV">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Library Of Congress Table View Controller-->
+        <scene sceneID="8Ks-DG-Qgb">
+            <objects>
+                <tableViewController id="0xl-j6-TuE" customClass="LibraryOfCongressTableViewController" customModule="LibraryOfCongress" customModuleProvider="target" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" id="PDE-Mp-yJ1">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <prototypes>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="LibraryOfCongressCell" textLabel="dIi-vG-lJE" detailTextLabel="cMc-o6-htZ" imageView="xRw-N7-fBa" style="IBUITableViewCellStyleSubtitle" id="mm9-cS-EPv">
+                                <rect key="frame" x="0.0" y="92" width="375" height="44"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="mm9-cS-EPv" id="5mb-Sa-ZJg">
+                                    <frame key="frameInset" width="375" height="43"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="Title" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="dIi-vG-lJE">
+                                            <frame key="frameInset" minX="73" minY="4" width="34" height="21"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                            <nil key="textColor"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                        <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="Subtitle" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="cMc-o6-htZ">
+                                            <frame key="frameInset" minX="73" minY="25" width="44" height="15"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                            <nil key="textColor"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                        <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" image="default-placeholder" id="xRw-N7-fBa">
+                                            <frame key="frameInset" minX="15" width="43" height="43"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                        </imageView>
+                                    </subviews>
+                                </tableViewCellContentView>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="0xl-j6-TuE" id="HKc-fa-f4K"/>
+                            <outlet property="delegate" destination="0xl-j6-TuE" id="oip-rb-d3v"/>
+                        </connections>
+                    </tableView>
+                    <navigationItem key="navigationItem" id="df6-yd-kLX"/>
+                    <connections>
+                        <segue destination="NFf-Uq-Sdo" kind="show" identifier="libraryOfCongressDetailViewSegue" id="wgr-wp-SjL"/>
+                    </connections>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="V8O-8R-vex" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1100" y="-30.134932533733135"/>
+        </scene>
+        <!--Detail Library Of Congress View Controller-->
+        <scene sceneID="dW7-Gb-Quj">
+            <objects>
+                <viewController id="NFf-Uq-Sdo" customClass="DetailLibraryOfCongressViewController" customModule="LibraryOfCongress" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="7UJ-lL-nSC"/>
+                        <viewControllerLayoutGuide type="bottom" id="eTr-iX-32E"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Tpj-0Q-JNm">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="7kW-tl-JJl"/>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="7kW-tl-JJl" firstAttribute="trailing" secondItem="Tpj-0Q-JNm" secondAttribute="trailingMargin" id="ET0-Xb-kYc"/>
+                            <constraint firstItem="7kW-tl-JJl" firstAttribute="top" secondItem="7UJ-lL-nSC" secondAttribute="bottom" constant="8" symbolic="YES" id="G2E-gO-Vmw"/>
+                            <constraint firstItem="7kW-tl-JJl" firstAttribute="leading" secondItem="Tpj-0Q-JNm" secondAttribute="leadingMargin" id="YbR-RL-OQK"/>
+                            <constraint firstItem="eTr-iX-32E" firstAttribute="top" secondItem="7kW-tl-JJl" secondAttribute="bottom" constant="8" symbolic="YES" id="iMR-iZ-wdC"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="fullImageView" destination="7kW-tl-JJl" id="JSr-hV-lk8"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="1UB-oU-xpg" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1872.8" y="-30.134932533733135"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="S9r-SP-weg">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="UV9-9Y-ccV" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="8Ag-mL-Y3c">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="0xl-j6-TuE" kind="relationship" relationship="rootViewController" id="Sv9-U2-1dV"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="MYm-s2-xSq" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="160.80000000000001" y="-30.134932533733135"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="default-placeholder" width="1500" height="1500"/>
+    </resources>
+</document>
