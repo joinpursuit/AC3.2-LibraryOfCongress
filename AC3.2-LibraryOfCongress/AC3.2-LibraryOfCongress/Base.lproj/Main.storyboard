@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11201" systemVersion="16A323" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="vz4-sD-wao">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Congress Table View Controller-->
+        <scene sceneID="E0Q-2a-5pV">
+            <objects>
+                <tableViewController id="hVx-ca-GbS" customClass="CongressTableViewController" customModule="AC3_2_LibraryOfCongress" customModuleProvider="target" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="88" sectionHeaderHeight="28" sectionFooterHeight="28" id="YiT-5Z-0dr">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <prototypes>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="CongressCellIdentifier" rowHeight="88" id="XX7-8b-yMI">
+                                <rect key="frame" x="0.0" y="92" width="375" height="88"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="XX7-8b-yMI" id="5aF-zg-qQh">
+                                    <frame key="frameInset" width="375" height="87"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                </tableViewCellContentView>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="hVx-ca-GbS" id="06n-BT-Bfb"/>
+                            <outlet property="delegate" destination="hVx-ca-GbS" id="RGm-3s-gpJ"/>
+                        </connections>
+                    </tableView>
+                    <navigationItem key="navigationItem" id="uiX-Uz-Lb8"/>
+                    <connections>
+                        <segue destination="Qwx-Qz-LPw" kind="show" identifier="CongressSegueIdentifier" id="ej7-lP-XJ1"/>
+                    </connections>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="qmQ-cw-h7J" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="880.79999999999995" y="81.409295352323838"/>
+        </scene>
+        <!--Congress Detail View Controller-->
+        <scene sceneID="1RV-fX-Pg1">
+            <objects>
+                <viewController id="Qwx-Qz-LPw" customClass="CongressDetailViewController" customModule="AC3_2_LibraryOfCongress" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="eFP-tz-qKe"/>
+                        <viewControllerLayoutGuide type="bottom" id="64f-on-WWe"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="qCP-oJ-jml">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="UEj-95-Emd">
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="194" id="ONA-Ox-bdC"/>
+                                </constraints>
+                            </imageView>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="wCr-7V-faC">
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fFv-Q8-KTn">
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="bottom" secondItem="fFv-Q8-KTn" secondAttribute="bottom" id="2oB-hA-NKw"/>
+                                    <constraint firstAttribute="trailing" secondItem="fFv-Q8-KTn" secondAttribute="trailing" constant="16" id="EnC-UC-Su8"/>
+                                    <constraint firstItem="fFv-Q8-KTn" firstAttribute="top" secondItem="wCr-7V-faC" secondAttribute="top" id="wg8-Eb-fR6"/>
+                                </constraints>
+                            </scrollView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="fFv-Q8-KTn" firstAttribute="leading" secondItem="qCP-oJ-jml" secondAttribute="leadingMargin" id="6TQ-wZ-gNu"/>
+                            <constraint firstItem="wCr-7V-faC" firstAttribute="leading" secondItem="qCP-oJ-jml" secondAttribute="leading" id="F5F-oT-5Zt"/>
+                            <constraint firstItem="UEj-95-Emd" firstAttribute="leading" secondItem="qCP-oJ-jml" secondAttribute="leadingMargin" constant="64" id="Ng8-a0-KAK"/>
+                            <constraint firstAttribute="trailing" secondItem="wCr-7V-faC" secondAttribute="trailing" id="Odi-5y-sd7"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="fFv-Q8-KTn" secondAttribute="trailing" id="Qjc-JS-Ipd"/>
+                            <constraint firstItem="wCr-7V-faC" firstAttribute="leading" secondItem="qCP-oJ-jml" secondAttribute="leading" id="YGO-6R-NCO"/>
+                            <constraint firstItem="UEj-95-Emd" firstAttribute="top" secondItem="eFP-tz-qKe" secondAttribute="bottom" constant="22" id="iYv-dx-jei"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="UEj-95-Emd" secondAttribute="trailing" constant="61" id="p4N-O8-JoV"/>
+                            <constraint firstAttribute="trailing" secondItem="wCr-7V-faC" secondAttribute="trailing" id="pwB-mu-Mu8"/>
+                            <constraint firstItem="64f-on-WWe" firstAttribute="top" secondItem="wCr-7V-faC" secondAttribute="bottom" id="rJ1-Ah-hl2"/>
+                            <constraint firstItem="wCr-7V-faC" firstAttribute="top" secondItem="UEj-95-Emd" secondAttribute="bottom" constant="36" id="sud-Me-kPp"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="congressImage" destination="UEj-95-Emd" id="tKy-SL-1Js"/>
+                        <outlet property="detailLabel" destination="fFv-Q8-KTn" id="szd-Eq-rbr"/>
+                        <outlet property="detailScrollView" destination="wCr-7V-faC" id="7S1-5o-ipn"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Ehn-Mz-aEc" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1844" y="80.50974512743629"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="2LU-Gj-6Nu">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="vz4-sD-wao" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="WQP-ri-iWE">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="hVx-ca-GbS" kind="relationship" relationship="rootViewController" id="OuG-nu-CCT"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="QeI-Tm-36e" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-58.399999999999999" y="81.409295352323838"/>
+        </scene>
+    </scenes>
+</document>
