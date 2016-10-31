@@ -14,7 +14,7 @@ internal class APIRequestManager {
     
     let apiEndPoint = "https://loc.gov/pictures/search/?q=mark%20twain&fo=json"
     
-    func getData(comption: @escaping ((Data?) -> Void)) {
+    func getData(completion: @escaping ((Data?) -> Void)) {
         if let validEndPoint: URL = URL(string: apiEndPoint){
             let session = URLSession(configuration: URLSessionConfiguration.default)
             session.dataTask(with: validEndPoint) { (data: Data?, response: URLResponse?, error: Error?) in
@@ -24,6 +24,7 @@ internal class APIRequestManager {
                 }
                 if let validData: Data = data {
                     print(validData)
+                    completion(validData)
                 }
             }.resume()
         }
