@@ -58,17 +58,24 @@ class LibraryOfCongressTableViewController: UITableViewController {
     
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "LibraryOfCongressCell", for: indexPath)
-        cell.textLabel?.text = print[indexPath.row].title
-        cell.detailTextLabel?.text = " "
-        
-        APImanager.manager.getData(endpoint: print[indexPath.row].thumbURLString) { (data: Data?) in
-            DispatchQueue.main.async {
-                if let validData = data {
-                    cell.imageView?.image = UIImage(data: validData)
-                    cell.setNeedsLayout()
-                }
-            }
+        //use of closure with the image extension of and it will fix the bug
+        DispatchQueue.main.async {
+            cell.textLabel?.text = self.print[indexPath.row].title
+            cell.detailTextLabel?.text = " "
+            cell.imageView?.downloadImage(urlString: self.print[indexPath.row].thumbURLString)
+            cell.setNeedsLayout()
         }
+        
+        
+        
+//        APImanager.manager.getData(endpoint: print[indexPath.row].thumbURLString) { (data: Data?) in
+//            DispatchQueue.main.async {
+//                if let validData = data {
+//                    cell.imageView?.image = UIImage(data: validData)
+//                    cell.setNeedsLayout()
+//                }
+//            }
+//        }
         
         return cell
     }

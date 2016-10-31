@@ -15,6 +15,7 @@
 		A7AACA211DC5A4BC00D0FCAB /* Print.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7AACA201DC5A4BC00D0FCAB /* Print.swift */; };
 		A7AACA231DC5A4EB00D0FCAB /* APImanager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7AACA221DC5A4EB00D0FCAB /* APImanager.swift */; };
 		A7AACA251DC5BE3800D0FCAB /* DetailLibraryOfCongressViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7AACA241DC5BE3800D0FCAB /* DetailLibraryOfCongressViewController.swift */; };
+		A7DA2C0A1DC7A681005D2CB2 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7DA2C091DC7A681005D2CB2 /* Extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		A7AACA201DC5A4BC00D0FCAB /* Print.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Print.swift; sourceTree = "<group>"; };
 		A7AACA221DC5A4EB00D0FCAB /* APImanager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APImanager.swift; sourceTree = "<group>"; };
 		A7AACA241DC5BE3800D0FCAB /* DetailLibraryOfCongressViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DetailLibraryOfCongressViewController.swift; path = ../DetailLibraryOfCongressViewController.swift; sourceTree = "<group>"; };
+		A7DA2C091DC7A681005D2CB2 /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +63,7 @@
 			isa = PBXGroup;
 			children = (
 				A7AACA201DC5A4BC00D0FCAB /* Print.swift */,
+				A7DA2C091DC7A681005D2CB2 /* Extensions.swift */,
 				A7AACA221DC5A4EB00D0FCAB /* APImanager.swift */,
 				A7AACA0C1DC5A34100D0FCAB /* AppDelegate.swift */,
 				A7AACA1E1DC5A3AF00D0FCAB /* LibraryOfCongressTableViewController.swift */,
@@ -147,6 +150,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A7AACA251DC5BE3800D0FCAB /* DetailLibraryOfCongressViewController.swift in Sources */,
+				A7DA2C0A1DC7A681005D2CB2 /* Extensions.swift in Sources */,
 				A7AACA231DC5A4EB00D0FCAB /* APImanager.swift in Sources */,
 				A7AACA0D1DC5A34100D0FCAB /* AppDelegate.swift in Sources */,
 				A7AACA1F1DC5A3AF00D0FCAB /* LibraryOfCongressTableViewController.swift in Sources */,

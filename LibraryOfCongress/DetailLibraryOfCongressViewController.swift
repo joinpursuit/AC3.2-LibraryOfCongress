@@ -14,10 +14,18 @@ class DetailLibraryOfCongressViewController: UIViewController {
     var onePrint: Print?
     
     @IBOutlet weak var fullImageView: UIImageView!
+    @IBOutlet weak var titleLabelView: UILabel!
+    @IBOutlet weak var subjectTextView: UITextView!
     
     override func viewDidLoad() {
         super.viewDidLoad()
         if let anyPrint = onePrint{
+            self.titleLabelView.text = anyPrint.title
+            var subjectString = ""
+            for i in anyPrint.subjectList {
+                subjectString += "\(i) \n"
+            }
+            self.subjectTextView.text = subjectString
             APImanager.manager.getData(endpoint: anyPrint.fullImageURLString) { (data) in
                 if data != nil {
                     DispatchQueue.main.async {
