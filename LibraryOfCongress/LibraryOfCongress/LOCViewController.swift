@@ -10,7 +10,10 @@ import UIKit
 
 class LOCViewController: UIViewController {
     
+    @IBOutlet weak var creator: UILabel!
     @IBOutlet weak var VCImage: UIImageView!
+    @IBOutlet weak var titleLabel: UILabel!
+    @IBOutlet weak var publishDate: UILabel!
     var loc: LibraryOfCongress!
 
     override func viewDidLoad() {
@@ -23,6 +26,11 @@ class LOCViewController: UIViewController {
                 }
             }
         }
+        if let lib = loc {
+            self.titleLabel.text = lib.title
+            self.creator.text = lib.creator
+            self.publishDate.text = String("Published \(lib.publishDate)")
+        } else { return }
     }
 
     /*

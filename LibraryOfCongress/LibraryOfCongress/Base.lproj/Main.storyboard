@@ -24,20 +24,53 @@
                                     <constraint firstAttribute="width" constant="325" id="h2r-qa-nJY"/>
                                 </constraints>
                             </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OX3-DU-ioN">
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="300" id="5En-ob-apD"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bXW-1P-C3o">
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="300" id="rD1-7Z-5sf"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ped-zw-Re4">
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="300" id="bC2-ND-hSE"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="aHi-Rt-4bb" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="Qyd-Mc-gaz"/>
+                            <constraint firstItem="bXW-1P-C3o" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="CeF-DP-15L"/>
+                            <constraint firstItem="Ped-zw-Re4" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="10" id="Hsz-rm-h8Y"/>
                             <constraint firstItem="aHi-Rt-4bb" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Sse-PH-ObC"/>
+                            <constraint firstItem="Ped-zw-Re4" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="ULb-Tn-4ng"/>
+                            <constraint firstItem="OX3-DU-ioN" firstAttribute="top" secondItem="aHi-Rt-4bb" secondAttribute="bottom" constant="10" id="V2K-OF-Jo0"/>
+                            <constraint firstItem="aHi-Rt-4bb" firstAttribute="top" secondItem="bXW-1P-C3o" secondAttribute="bottom" constant="10" id="a7d-kC-sRw"/>
+                            <constraint firstItem="OX3-DU-ioN" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="qLd-k7-TGB"/>
+                            <constraint firstItem="bXW-1P-C3o" firstAttribute="top" secondItem="Ped-zw-Re4" secondAttribute="bottom" constant="10" id="rgN-dh-oUf"/>
                         </constraints>
                     </view>
                     <connections>
                         <outlet property="VCImage" destination="aHi-Rt-4bb" id="9T8-ZW-Lbw"/>
+                        <outlet property="creator" destination="Ped-zw-Re4" id="thN-y9-bwl"/>
+                        <outlet property="publishDate" destination="bXW-1P-C3o" id="DrQ-9n-FVE"/>
+                        <outlet property="titleLabel" destination="OX3-DU-ioN" id="Ygt-hn-NZh"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2426" y="202"/>
+            <point key="canvasLocation" x="2424.8000000000002" y="201.94902548725639"/>
         </scene>
         <!--Table View Controller-->
         <scene sceneID="ENb-ce-mhZ">
