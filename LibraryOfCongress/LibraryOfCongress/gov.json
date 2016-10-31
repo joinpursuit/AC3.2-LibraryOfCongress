@@ -1,0 +1,809 @@
+{"search":{
+    "field": null, 
+    "hits": 343, 
+    "sort_order": null, 
+    "do_facets": true, 
+    "focus_item": null, 
+    "query": "mark twain", 
+    "type": "search", 
+    "sort_by": null
+},
+"focus":null,
+"views":{
+    "current": "list", 
+    "grid": "//www.loc.gov/pictures/search/?q=mark+twain&st=grid", 
+    "list": "//www.loc.gov/pictures/search/?q=mark+twain", 
+    "gallery": "//www.loc.gov/pictures/search/?q=mark+twain&st=gallery", 
+    "slideshow": "//www.loc.gov/pictures/search/?q=mark+twain&st=slideshow"
+},
+"facets":[
+    {
+        "type": "displayed", 
+        "filters": [
+            {
+                "count": 287, 
+                "on": "//www.loc.gov/pictures/search/?q=mark+twain&fa=displayed%3Aanywhere&sp=1&fo=json", 
+                "selected": false, 
+                "off": "//www.loc.gov/pictures/search/?q=mark+twain&sp=1&fo=json", 
+                "title": "Larger image available anywhere"
+            }, 
+            {
+                "count": 40, 
+                "on": "//www.loc.gov/pictures/search/?q=mark+twain&fa=displayed%3Alc_only&sp=1&fo=json", 
+                "selected": false, 
+                "off": "//www.loc.gov/pictures/search/?q=mark+twain&sp=1&fo=json", 
+                "title": "Larger image available only at the Library of Congress"
+            }, 
+            {
+                "count": 16, 
+                "on": "//www.loc.gov/pictures/search/?q=mark+twain&fa=displayed%3Anot_digitized&sp=1&fo=json", 
+                "selected": false, 
+                "off": "//www.loc.gov/pictures/search/?q=mark+twain&sp=1&fo=json", 
+                "title": "Not Digitized"
+            }
+        ], 
+        "title": "displayed"
+    }
+],
+"links":{
+    "json": "//loc.gov/pictures/search/?q=mark%20twain&fo=json", 
+    "html": "//loc.gov/pictures/search/?q=mark%20twain", 
+    "rss": "//loc.gov/pictures/search/?q=mark%20twain&fo=rss"
+},
+"suggestions":{
+    "possible": []
+},
+"pages":{
+    "current": 1, 
+    "next": "//www.loc.gov/pictures/search/?q=mark+twain&sp=2", 
+    "perpage": 20, 
+    "last": "//www.loc.gov/pictures/search/?q=mark+twain&sp=17", 
+    "page_list": [
+        {
+            "url": null, 
+            "number": 1
+        }, 
+        {
+            "url": "//www.loc.gov/pictures/search/?q=mark+twain&sp=2", 
+            "number": 2
+        }, 
+        {
+            "url": "//www.loc.gov/pictures/search/?q=mark+twain&sp=3", 
+            "number": 3
+        }, 
+        {
+            "url": "//www.loc.gov/pictures/search/?q=mark+twain&sp=4", 
+            "number": 4
+        }, 
+        {
+            "url": "//www.loc.gov/pictures/search/?q=mark+twain&sp=5", 
+            "number": 5
+        }, 
+        {
+            "url": "//www.loc.gov/pictures/search/?q=mark+twain&sp=6", 
+            "number": "..."
+        }, 
+        {
+            "url": "//www.loc.gov/pictures/search/?q=mark+twain&sp=17", 
+            "number": 17
+        }
+    ], 
+    "previous": null, 
+    "total": 17, 
+    "results": "1 - 20", 
+    "first": null
+},
+"collection":null,
+"results":[
+    {
+        "source_created": "2013-11-06 00:00:00", 
+        "index": 1, 
+        "medium": "1 photographic print.", 
+        "reproduction_number": "LC-DIG-ds-004479 (digital file from original item)\nLC-USZ62-12468 (b&w film copy neg.)", 
+        "links": {
+            "item": "//www.loc.gov/pictures/item/2013650184/", 
+            "resource": "//www.loc.gov/pictures/item/2013650184/resource/"
+        }, 
+        "title": "Mark Twain's boyhood friends Standing - Noval [i.e. Norval] L. Brady, age 82. Son of James Brady, first mayor of Hannibal, Mo. Dr. B.Q. Stevens, age 85. Boyhood friend of Mark Twain. J.L. Robards, age 84. Boyhood friend of Mark Twain. Sitting - Moses D. Bates, age 84. Son of Moses D. Bates, founder of Hannibal, Mo. Mrs. Elizabeth Frazer, age 84. \"The real Becky Thatcher.\" T.G. Dulaney, age 81. A counter part of Mark Twain /", 
+        "image": {
+            "alt": "digitized item thumbnail", 
+            "full": "//www.loc.gov/pictures/cdn/service/pnp/ds/04400/04479r.jpg", 
+            "square": "//cdn.loc.gov/service/pnp/ds/04400/04479_75x75px.jpg", 
+            "thumb": "//cdn.loc.gov/service/pnp/ds/04400/04479_150px.jpg"
+        }, 
+        "created": "2016-04-20 00:00:00", 
+        "modified": "2016-04-20 00:00:00", 
+        "collection": [
+            "cph", 
+            "diof", 
+            "pp"
+        ], 
+        "creator": "Frazer, Jean Tomlinson, 1894-1969", 
+        "call_number": "BIOG FILE - Clemens, Samuel Langhorne, 1835-1910--Groups [item] [P&P]", 
+        "medium_brief": "1 photographic print.", 
+        "source_modified": "2013-11-06 00:00:00", 
+        "pk": "2013650184", 
+        "created_published_date": "1922 June 13.", 
+        "subjects": [
+            "Clemens, Samuel Langhorne,--1835-1910--Friends & associates--Missouri--Hannibal.", 
+            "Frazer, Anna Laura Hawkins,--1837-1928--Missouri--Hannibal.", 
+            "Bates, Moses D.,--1838-1929--Missouri--Hannibal.", 
+            "Brady, Norval L.,--1839-1929--Missouri--Hannibal.", 
+            "Robards, J. L.--(John Lewis),--1838-1925--Missouri--Hannibal.", 
+            "Group portraits--1920-1930.", 
+            "Photographic prints--1920-1930.", 
+            "Portrait photographs--1920-1930."
+        ]
+    }, 
+    {
+        "source_created": "1970-01-01 00:00:00", 
+        "index": 2, 
+        "medium": "91", 
+        "reproduction_number": null, 
+        "links": {
+            "item": "//www.loc.gov/pictures/item/ct0332/", 
+            "resource": "//www.loc.gov/pictures/item/ct0332/resource/"
+        }, 
+        "title": "Mark Twain House, 351 Farmington Avenue (corrected from original address of 531 Farmington Avenue), Hartford, Hartford County, CT", 
+        "image": {
+            "alt": "digitized item thumbnail", 
+            "full": "//www.loc.gov/pictures/cdn/service/pnp/habshaer/ct/ct0300/ct0332/photos/023143pr.jpg?q=ct0332.photos.023143p&c=91&st=gallery", 
+            "square": "//cdn.loc.gov/service/pnp/habshaer/ct/ct0300/ct0332/photos/023143p_75x75px.jpg?q=ct0332.photos.023143p&c=91&st=gallery", 
+            "thumb": "//cdn.loc.gov/service/pnp/habshaer/ct/ct0300/ct0332/photos/023143p_150px.jpg?q=ct0332.photos.023143p&c=91&st=gallery"
+        }, 
+        "created": "2016-04-17 00:00:00", 
+        "modified": "2016-04-19 00:00:00", 
+        "collection": [
+            "diof", 
+            "hh", 
+            "survey"
+        ], 
+        "creator": "Historic American Buildings Survey", 
+        "call_number": "HABS CONN,2-HARF,16-", 
+        "medium_brief": "Photo(s): 91, Measured Drawing(s): 14, Data Page(s): 44, Photo Caption Page(s): 8", 
+        "source_modified": "2016-04-17 00:00:00", 
+        "pk": "ct0332", 
+        "created_published_date": "Documentation compiled after 1933", 
+        "subjects": [
+            "houses", 
+            "brick buildings", 
+            "domestic life", 
+            "historic house museums", 
+            "balconies", 
+            "turrets (towers)", 
+            "porches"
+        ]
+    }, 
+    {
+        "source_created": "1970-01-01 00:00:00", 
+        "index": 3, 
+        "medium": "3", 
+        "reproduction_number": null, 
+        "links": {
+            "item": "//www.loc.gov/pictures/item/mo1121/", 
+            "resource": "//www.loc.gov/pictures/item/mo1121/resource/"
+        }, 
+        "title": "J. M. Clemens Law Office, Hill Street, Hannibal, Marion County, MO", 
+        "image": {
+            "alt": "digitized item thumbnail", 
+            "full": "//www.loc.gov/pictures/cdn/service/pnp/habshaer/mo/mo1100/mo1121/photos/097251pr.jpg?q=mo1121.photos.097251p&c=3&st=gallery", 
+            "square": "//cdn.loc.gov/service/pnp/habshaer/mo/mo1100/mo1121/photos/097251p_75x75px.jpg?q=mo1121.photos.097251p&c=3&st=gallery", 
+            "thumb": "//cdn.loc.gov/service/pnp/habshaer/mo/mo1100/mo1121/photos/097251p_150px.jpg?q=mo1121.photos.097251p&c=3&st=gallery"
+        }, 
+        "created": "2016-04-17 00:00:00", 
+        "modified": "2016-04-19 00:00:00", 
+        "collection": [
+            "diof", 
+            "hh", 
+            "survey"
+        ], 
+        "creator": "Historic American Buildings Survey", 
+        "call_number": "HABS MO,64-HANIB,10-", 
+        "medium_brief": "Photo(s): 3, Photo Caption Page(s): 1", 
+        "source_modified": "2016-04-17 00:00:00", 
+        "pk": "mo1121", 
+        "created_published_date": "Documentation compiled after 1933", 
+        "subjects": [
+            "law offices"
+        ]
+    }, 
+    {
+        "source_created": "2007-04-03 00:00:00", 
+        "index": 4, 
+        "medium": "1 photographic print.", 
+        "reproduction_number": "LC-DIG-ds-04480 (digital file from original item)\nLC-USZ62-43651 (b&w film copy neg.)", 
+        "links": {
+            "item": "//www.loc.gov/pictures/item/2007678786/", 
+            "resource": "//www.loc.gov/pictures/item/2007678786/resource/"
+        }, 
+        "title": "The boyhood home of the American writer Mark Twain was this gray house on Hill Street, Missouri, the house described as Tom Sawyer's home in Mark Twain's best known story, \"The Adventures of Tom Sawyer\"", 
+        "image": {
+            "alt": "digitized item thumbnail", 
+            "full": "//www.loc.gov/pictures/cdn/service/pnp/ds/04400/04480r.jpg", 
+            "square": "//cdn.loc.gov/service/pnp/ds/04400/04480_75x75px.jpg", 
+            "thumb": "//cdn.loc.gov/service/pnp/ds/04400/04480_150px.jpg"
+        }, 
+        "created": "2016-04-20 00:00:00", 
+        "modified": "2016-04-20 00:00:00", 
+        "collection": [
+            "cph", 
+            "diof", 
+            "pp"
+        ], 
+        "creator": null, 
+        "call_number": "LOT 2169 [item] [P&P]", 
+        "medium_brief": "1 photographic print.", 
+        "source_modified": "2013-09-18 00:00:00", 
+        "pk": "2007678786", 
+        "created_published_date": "[between 1890 and 1910; printed approximately 1944]", 
+        "subjects": [
+            "Clemens, Samuel Langhorne,--1835-1910--Homes & haunts--Missouri--Hannibal.", 
+            "Houses--Missouri--Hannibal--1890-1910.", 
+            "Photographic prints--1940-1950."
+        ]
+    }, 
+    {
+        "source_created": "1970-01-01 00:00:00", 
+        "index": 5, 
+        "medium": "5 x 7 in.", 
+        "reproduction_number": "HABS CONN,2-HARF,16--22", 
+        "links": {
+            "item": "//www.loc.gov/pictures/item/ct0332.photos.023164p/", 
+            "resource": "//www.loc.gov/pictures/item/ct0332.photos.023164p/resource/"
+        }, 
+        "title": "22.  EXTERIOR, VIEW OF THE PORTE-COCHERE FROM THE NORTH WITH THE MARK TWAIN CARRIAGE HOUSE (HABS No. CT-365-A) IN THE BACKGROUND - Mark Twain House, 351 Farmington Avenue (corrected from original address of 531 Farmington Avenue), Hartford, Hartford County, CT", 
+        "image": {
+            "alt": "digitized item thumbnail", 
+            "full": "//www.loc.gov/pictures/cdn/service/pnp/habshaer/ct/ct0300/ct0332/photos/023164pr.jpg", 
+            "square": "//cdn.loc.gov/service/pnp/habshaer/ct/ct0300/ct0332/photos/023164p_75x75px.jpg", 
+            "thumb": "//cdn.loc.gov/service/pnp/habshaer/ct/ct0300/ct0332/photos/023164p_150px.jpg"
+        }, 
+        "created": "2016-04-17 00:00:00", 
+        "modified": "2016-04-17 00:00:00", 
+        "collection": [
+            "diof", 
+            "hh"
+        ], 
+        "creator": null, 
+        "call_number": "HABS CONN,2-HARF,16--22", 
+        "medium_brief": "5 x 7 in.", 
+        "source_modified": "2016-04-17 00:00:00", 
+        "pk": "ct0332.photos.023164p", 
+        "created_published_date": "", 
+        "subjects": null
+    }, 
+    {
+        "source_created": "1970-01-01 00:00:00", 
+        "index": 6, 
+        "medium": "5 x 7 in.", 
+        "reproduction_number": "HABS CONN,2-HARF,16--57", 
+        "links": {
+            "item": "//www.loc.gov/pictures/item/ct0332.photos.023199p/", 
+            "resource": "//www.loc.gov/pictures/item/ct0332.photos.023199p/resource/"
+        }, 
+        "title": "57.  COPY OF HISTORIC VIEW OF WEST WALL OF DINING ROOM, date & photographer unknown; property of Mark Twain House. - Mark Twain House, 351 Farmington Avenue (corrected from original address of 531 Farmington Avenue), Hartford, Hartford County, CT", 
+        "image": {
+            "alt": "digitized item thumbnail", 
+            "full": "//www.loc.gov/pictures/cdn/service/pnp/habshaer/ct/ct0300/ct0332/photos/023199pr.jpg", 
+            "square": "//cdn.loc.gov/service/pnp/habshaer/ct/ct0300/ct0332/photos/023199p_75x75px.jpg", 
+            "thumb": "//cdn.loc.gov/service/pnp/habshaer/ct/ct0300/ct0332/photos/023199p_150px.jpg"
+        }, 
+        "created": "2016-04-17 00:00:00", 
+        "modified": "2016-04-17 00:00:00", 
+        "collection": [
+            "diof", 
+            "hh"
+        ], 
+        "creator": null, 
+        "call_number": "HABS CONN,2-HARF,16--57", 
+        "medium_brief": "5 x 7 in.", 
+        "source_modified": "2016-04-17 00:00:00", 
+        "pk": "ct0332.photos.023199p", 
+        "created_published_date": "", 
+        "subjects": null
+    }, 
+    {
+        "source_created": "1970-01-01 00:00:00", 
+        "index": 7, 
+        "medium": "4 x 5 in.", 
+        "reproduction_number": "HAER MO-77-1", 
+        "links": {
+            "item": "//www.loc.gov/pictures/item/mo1259.photos.196932p/", 
+            "resource": "//www.loc.gov/pictures/item/mo1259.photos.196932p/resource/"
+        }, 
+        "title": "1.  Mark Twain Memorial Bridge, view to north - Mark Twain Memorial Bridge, Spanning Mississippi River at US Route 36, Hannibal, Marion County, MO", 
+        "image": {
+            "alt": "digitized item thumbnail", 
+            "full": "//www.loc.gov/pictures/cdn/service/pnp/habshaer/mo/mo1200/mo1259/photos/196932pr.jpg", 
+            "square": "//cdn.loc.gov/service/pnp/habshaer/mo/mo1200/mo1259/photos/196932p_75x75px.jpg", 
+            "thumb": "//cdn.loc.gov/service/pnp/habshaer/mo/mo1200/mo1259/photos/196932p_150px.jpg"
+        }, 
+        "created": "2016-04-16 00:00:00", 
+        "modified": "2016-04-16 00:00:00", 
+        "collection": [
+            "diof", 
+            "hh"
+        ], 
+        "creator": null, 
+        "call_number": "HAER MO-77-1", 
+        "medium_brief": "4 x 5 in.", 
+        "source_modified": "2016-04-16 00:00:00", 
+        "pk": "mo1259.photos.196932p", 
+        "created_published_date": "", 
+        "subjects": null
+    }, 
+    {
+        "source_created": "1970-01-01 00:00:00", 
+        "index": 8, 
+        "medium": "4 x 5 in.", 
+        "reproduction_number": "HAER MO-77-2", 
+        "links": {
+            "item": "//www.loc.gov/pictures/item/mo1259.photos.196933p/", 
+            "resource": "//www.loc.gov/pictures/item/mo1259.photos.196933p/resource/"
+        }, 
+        "title": "2.  Mark Twain Memorial Bridge, view to the northwest - Mark Twain Memorial Bridge, Spanning Mississippi River at US Route 36, Hannibal, Marion County, MO", 
+        "image": {
+            "alt": "digitized item thumbnail", 
+            "full": "//www.loc.gov/pictures/cdn/service/pnp/habshaer/mo/mo1200/mo1259/photos/196933pr.jpg", 
+            "square": "//cdn.loc.gov/service/pnp/habshaer/mo/mo1200/mo1259/photos/196933p_75x75px.jpg", 
+            "thumb": "//cdn.loc.gov/service/pnp/habshaer/mo/mo1200/mo1259/photos/196933p_150px.jpg"
+        }, 
+        "created": "2016-04-16 00:00:00", 
+        "modified": "2016-04-16 00:00:00", 
+        "collection": [
+            "diof", 
+            "hh"
+        ], 
+        "creator": null, 
+        "call_number": "HAER MO-77-2", 
+        "medium_brief": "4 x 5 in.", 
+        "source_modified": "2016-04-16 00:00:00", 
+        "pk": "mo1259.photos.196933p", 
+        "created_published_date": "", 
+        "subjects": null
+    }, 
+    {
+        "source_created": "2011-11-09 00:00:00", 
+        "index": 9, 
+        "medium": "1 transparency : color ; 4 x 5 in. or smaller", 
+        "reproduction_number": "LC-DIG-highsm-14945 (digital file from original)\nLC-HS503-3589 (color film transparency)", 
+        "links": {
+            "item": "//www.loc.gov/pictures/item/2011633138/", 
+            "resource": "//www.loc.gov/pictures/item/2011633138/resource/"
+        }, 
+        "title": "Pamphlet cover for which Samuel Clemens (Mark Twain) sought a copyright; from the Library's collection. Washington, D.C.", 
+        "image": {
+            "alt": "digitized item thumbnail", 
+            "full": "//www.loc.gov/pictures/cdn/service/pnp/highsm/14900/14945r.jpg", 
+            "square": "//cdn.loc.gov/service/pnp/highsm/14900/14945_75x75px.jpg", 
+            "thumb": "//cdn.loc.gov/service/pnp/highsm/14900/14945_150px.jpg"
+        }, 
+        "created": "2016-04-21 00:00:00", 
+        "modified": "2016-04-21 00:00:00", 
+        "collection": [
+            "diof", 
+            "highsm", 
+            "minload", 
+            "pp"
+        ], 
+        "creator": "Highsmith, Carol M., 1946-", 
+        "call_number": "LC-HS503- 3589 (ONLINE) [P&P]", 
+        "medium_brief": "1 transparency :", 
+        "source_modified": "2012-05-21 00:00:00", 
+        "pk": "2011633138", 
+        "created_published_date": "[between 1980 and 2006]", 
+        "subjects": [
+            "Library of Congress--1980-2010.", 
+            "United States--District of Columbia--Washington (D.C.)", 
+            "Samuel Clemens.", 
+            "Mark Twain.", 
+            "Mark Twain sketches.", 
+            "Transparencies--color--1980-2010."
+        ]
+    }, 
+    {
+        "source_created": "2012-02-01 00:00:00", 
+        "index": 10, 
+        "medium": "1 transparency : color ; 4 x 5 in. or smaller.", 
+        "reproduction_number": "LC-DIG-highsm-17649 (digital file from original)\nLC-HS503-5861 (color film transparency)", 
+        "links": {
+            "item": "//www.loc.gov/pictures/item/2011635843/", 
+            "resource": "//www.loc.gov/pictures/item/2011635843/resource/"
+        }, 
+        "title": "Up Jackass Hill in Tuolumne County in the California Sierras is a reproduction, though the chimney and fireplace are original, of a cabin where Mark Twain lived in 1864 and 1865", 
+        "image": {
+            "alt": "digitized item thumbnail", 
+            "full": "//www.loc.gov/pictures/cdn/service/pnp/highsm/17600/17649r.jpg", 
+            "square": "//cdn.loc.gov/service/pnp/highsm/17600/17649_75x75px.jpg", 
+            "thumb": "//cdn.loc.gov/service/pnp/highsm/17600/17649_150px.jpg"
+        }, 
+        "created": "2016-04-21 00:00:00", 
+        "modified": "2016-04-21 00:00:00", 
+        "collection": [
+            "diof", 
+            "highsm", 
+            "minload", 
+            "pp"
+        ], 
+        "creator": "Highsmith, Carol M., 1946-", 
+        "call_number": "LC-HS503- 5861 (ONLINE) [P&P]", 
+        "medium_brief": "1 transparency :", 
+        "source_modified": "2012-03-06 00:00:00", 
+        "pk": "2011635843", 
+        "created_published_date": "[between 1980 and 2006]", 
+        "subjects": [
+            "United States--California--Tuolumne County.", 
+            "America.", 
+            "Sierra Nevada Mountains.", 
+            "Mark Twain.", 
+            "Jackass Hill.", 
+            "Mark Twain cabin.", 
+            "Transparencies--color--1980-2010."
+        ]
+    }, 
+    {
+        "source_created": "2013-11-05 00:00:00", 
+        "index": 11, 
+        "medium": "1 photographic print.", 
+        "reproduction_number": "LC-DIG-ds-04478 (digital file from original item)\nLC-USZ62-12930 (b&w film copy neg.)", 
+        "links": {
+            "item": "//www.loc.gov/pictures/item/2013650182/", 
+            "resource": "//www.loc.gov/pictures/item/2013650182/resource/"
+        }, 
+        "title": "[Mark Twain with Anna Laura (Elizabeth) Hawkins Frazer, who was the inspiration for Twain's character Becky Thatcher in Tom Sawyer and Huckleberry Finn]", 
+        "image": {
+            "alt": "digitized item thumbnail", 
+            "full": "//www.loc.gov/pictures/cdn/service/pnp/ds/04400/04478r.jpg", 
+            "square": "//cdn.loc.gov/service/pnp/ds/04400/04478_75x75px.jpg", 
+            "thumb": "//cdn.loc.gov/service/pnp/ds/04400/04478_150px.jpg"
+        }, 
+        "created": "2016-04-21 00:00:00", 
+        "modified": "2016-04-21 00:00:00", 
+        "collection": [
+            "cph", 
+            "diof", 
+            "pp"
+        ], 
+        "creator": null, 
+        "call_number": "BIOG FILE - Clemens, Samuel Langhorne, 1835-1910--Groups [item] [P&P]", 
+        "medium_brief": "1 photographic print.", 
+        "source_modified": "2013-11-06 00:00:00", 
+        "pk": "2013650182", 
+        "created_published_date": "[between 1902 and 1908]", 
+        "subjects": [
+            "Clemens, Samuel Langhorne,--1835-1910--Friends & associates.", 
+            "Frazer, Anna Laura Hawkins,--1837-1928.", 
+            "Authors--American--1900-1910.", 
+            "Group portraits--1900-1910.", 
+            "Photographic prints--1900-1910.", 
+            "Portrait photographs--1900-1910."
+        ]
+    }, 
+    {
+        "source_created": "2011-10-04 00:00:00", 
+        "index": 12, 
+        "medium": "1 transparency : color ; 4 x 5 in. or smaller.", 
+        "reproduction_number": "LC-DIG-highsm-13125 (digital file from original)\nLC-HS503-1866 (color film transparency)", 
+        "links": {
+            "item": "//www.loc.gov/pictures/item/2011631319/", 
+            "resource": "//www.loc.gov/pictures/item/2011631319/resource/"
+        }, 
+        "title": "Mark Twain House & Museum has restored the author's home in Hartford, Connecticut", 
+        "image": {
+            "alt": "digitized item thumbnail", 
+            "full": "//www.loc.gov/pictures/cdn/service/pnp/highsm/13100/13125r.jpg", 
+            "square": "//cdn.loc.gov/service/pnp/highsm/13100/13125_75x75px.jpg", 
+            "thumb": "//cdn.loc.gov/service/pnp/highsm/13100/13125_150px.jpg"
+        }, 
+        "created": "2016-04-20 00:00:00", 
+        "modified": "2016-04-20 00:00:00", 
+        "collection": [
+            "diof", 
+            "highsm", 
+            "minload", 
+            "pp"
+        ], 
+        "creator": "Highsmith, Carol M., 1946-", 
+        "call_number": "LC-HS503- 1866 (ONLINE) [P&P]", 
+        "medium_brief": "1 transparency :", 
+        "source_modified": "2015-04-30 00:00:00", 
+        "pk": "2011631319", 
+        "created_published_date": "[between 1980 and 2006]", 
+        "subjects": [
+            "United States--Connecticut--Hartford.", 
+            "America.", 
+            "Mark Twain.", 
+            "Houses.", 
+            "Transparencies--color--1980-2010."
+        ]
+    }, 
+    {
+        "source_created": "2007-01-08 00:00:00", 
+        "index": 13, 
+        "medium": "1 negative : glass ; 4 x 5 in. or smaller", 
+        "reproduction_number": "LC-DIG-npcc-00217 (digital file from original)", 
+        "links": {
+            "item": "//www.loc.gov/pictures/item/npc2007000212/", 
+            "resource": "//www.loc.gov/pictures/item/npc2007000212/resource/"
+        }, 
+        "title": "House of Mark Twain, Hartford, Conn.", 
+        "image": {
+            "alt": "digitized item thumbnail", 
+            "full": "//www.loc.gov/pictures/cdn/service/pnp/npcc/00200/00217r.jpg", 
+            "square": "//cdn.loc.gov/service/pnp/npcc/00200/00217_75x75px.jpg", 
+            "thumb": "//cdn.loc.gov/service/pnp/npcc/00200/00217_150px.jpg"
+        }, 
+        "created": "2016-04-20 00:00:00", 
+        "modified": "2016-04-20 00:00:00", 
+        "collection": [
+            "diof", 
+            "npco", 
+            "pp"
+        ], 
+        "creator": null, 
+        "call_number": "LC-F8- 3224 [P&P]", 
+        "medium_brief": "1 negative :", 
+        "source_modified": "2008-03-12 00:00:00", 
+        "pk": "npc2007000212", 
+        "created_published_date": "[between 1918 and 1920]", 
+        "subjects": [
+            "Mark Twain House & Museum (Hartford, Conn.)", 
+            "Houses.", 
+            "United States--Connecticut--Hartford County--Hartford.", 
+            "Glass negatives."
+        ]
+    }, 
+    {
+        "source_created": "2011-11-09 00:00:00", 
+        "index": 14, 
+        "medium": "1 transparency : color ; 4 x 5 in. or smaller", 
+        "reproduction_number": "LC-DIG-highsm-14449 (digital file from original)\nLC-DIG-highsm-17128 (digital file from original)\nLC-HS503-4556 (color film transparency)", 
+        "links": {
+            "item": "//www.loc.gov/pictures/item/2011632643/", 
+            "resource": "//www.loc.gov/pictures/item/2011632643/resource/"
+        }, 
+        "title": "Mark Twain actor gives a speech on Pennsylvania Avenue, Washington, D.C.", 
+        "image": {
+            "alt": "digitized item thumbnail", 
+            "full": "//www.loc.gov/pictures/cdn/service/pnp/highsm/14400/14449r.jpg", 
+            "square": "//cdn.loc.gov/service/pnp/highsm/14400/14449_75x75px.jpg", 
+            "thumb": "//cdn.loc.gov/service/pnp/highsm/14400/14449_150px.jpg"
+        }, 
+        "created": "2016-04-21 00:00:00", 
+        "modified": "2016-04-21 00:00:00", 
+        "collection": [
+            "diof", 
+            "highsm", 
+            "minload", 
+            "pp"
+        ], 
+        "creator": "Highsmith, Carol M., 1946-", 
+        "call_number": "LC-HS503- 4556 (ONLINE) [P&P]", 
+        "medium_brief": "1 transparency :", 
+        "source_modified": "2015-05-12 00:00:00", 
+        "pk": "2011632643", 
+        "created_published_date": "[between 1980 and 2006]", 
+        "subjects": [
+            "United States--District of Columbia--Washington (D.C.)", 
+            "America.", 
+            "Pennsylvania Avenue.", 
+            "Mark Twain interpreter.", 
+            "Transparencies--color--1980-2010."
+        ]
+    }, 
+    {
+        "source_created": "1994-10-18 00:00:00", 
+        "index": 15, 
+        "medium": "1 photographic print.", 
+        "reproduction_number": "LC-USZ62-112065 (b&w film copy neg.)", 
+        "links": {
+            "item": "//www.loc.gov/pictures/item/94511339/", 
+            "resource": "//www.loc.gov/pictures/item/94511339/resource/"
+        }, 
+        "title": "[Mark Twain, three-quarter length portrait, seated, facing slightly right, with cigar in hand]", 
+        "image": {
+            "alt": "digitized item thumbnail", 
+            "full": "//www.loc.gov/pictures/cdn/service/pnp/cph/3c10000/3c12000/3c12000/3c12065r.jpg", 
+            "square": "//cdn.loc.gov/service/pnp/cph/3c10000/3c12000/3c12000/3c12065_75x75px.jpg", 
+            "thumb": "//cdn.loc.gov/service/pnp/cph/3c10000/3c12000/3c12000/3c12065_150px.jpg"
+        }, 
+        "created": "2016-04-21 00:00:00", 
+        "modified": "2016-04-21 00:00:00", 
+        "collection": [
+            "cph", 
+            "diof", 
+            "pp"
+        ], 
+        "creator": null, 
+        "call_number": "NYWTS - BIOG--Twain, Mark--Author--Dead <item> [P&P]", 
+        "medium_brief": "1 photographic print.", 
+        "source_modified": "2009-04-29 00:00:00", 
+        "pk": "94511339", 
+        "created_published_date": "c1907.", 
+        "subjects": [
+            "Twain, Mark,--1835-1910.", 
+            "Photographic prints--1900-1910.", 
+            "Portrait photographs--1900-1910."
+        ]
+    }, 
+    {
+        "source_created": "2006-01-23 00:00:00", 
+        "index": 16, 
+        "medium": "1 print (poster) : lithograph, color ; 39 x 31 cm.", 
+        "reproduction_number": "LC-DIG-ds-04510 (digital file from original item)\nLC-USZC4-13258 (color film copy transparency)", 
+        "links": {
+            "item": "//www.loc.gov/pictures/item/2006676062/", 
+            "resource": "//www.loc.gov/pictures/item/2006676062/resource/"
+        }, 
+        "title": "Stirring times in Austria described by Mark Twain in Harper's March", 
+        "image": {
+            "alt": "digitized item thumbnail", 
+            "full": "//www.loc.gov/pictures/cdn/service/pnp/ds/04500/04510r.jpg", 
+            "square": "//cdn.loc.gov/service/pnp/ds/04500/04510_75x75px.jpg", 
+            "thumb": "//cdn.loc.gov/service/pnp/ds/04500/04510_150px.jpg"
+        }, 
+        "created": "2016-04-20 00:00:00", 
+        "modified": "2016-04-20 00:00:00", 
+        "collection": [
+            "diof", 
+            "pos", 
+            "pp"
+        ], 
+        "creator": "Penfield, Edward, 1866-1925", 
+        "call_number": "POS - US .P452, no. 79 (B size) [P&P]", 
+        "medium_brief": "1 print (poster) :", 
+        "source_modified": "2013-08-14 00:00:00", 
+        "pk": "2006676062", 
+        "created_published_date": "1898]", 
+        "subjects": [
+            "Twain, Mark,--1835-1910.", 
+            "Book & magazine posters--American--1890-1900.", 
+            "Lithographs--Color--1890-1900."
+        ]
+    }, 
+    {
+        "source_created": "2014-04-25 00:00:00", 
+        "index": 17, 
+        "medium": "1 photographic print.", 
+        "reproduction_number": "LC-DIG-ds-05448 (digital file from original item)\nLC-USZ62-26239 (b&w film copy neg.)", 
+        "links": {
+            "item": "//www.loc.gov/pictures/item/2014645012/", 
+            "resource": "//www.loc.gov/pictures/item/2014645012/resource/"
+        }, 
+        "title": "Mark Twain", 
+        "image": {
+            "alt": "digitized item thumbnail", 
+            "full": "//www.loc.gov/pictures/cdn/service/pnp/ds/05400/05448r.jpg", 
+            "square": "//cdn.loc.gov/service/pnp/ds/05400/05448_75x75px.jpg", 
+            "thumb": "//cdn.loc.gov/service/pnp/ds/05400/05448_150px.jpg"
+        }, 
+        "created": "2016-04-20 00:00:00", 
+        "modified": "2016-04-20 00:00:00", 
+        "collection": [
+            "cph", 
+            "diof", 
+            "pp"
+        ], 
+        "creator": "Bolles, Charles E., 1847 -1914", 
+        "call_number": "BIOG FILE - Clemens, Samuel Langhorne, 1835-1910 [item] [P&P]", 
+        "medium_brief": "1 photographic print.", 
+        "source_modified": "2014-04-25 00:00:00", 
+        "pk": "2014645012", 
+        "created_published_date": "c1902.", 
+        "subjects": [
+            "Twain, Mark,--1835-1910.", 
+            "Photographic prints--1900-1910.", 
+            "Portrait photographs--1900-1910."
+        ]
+    }, 
+    {
+        "source_created": "2004-06-10 00:00:00", 
+        "index": 18, 
+        "medium": "1 photographic print.", 
+        "reproduction_number": "LC-USZ62-5513 (b&w film copy neg.)", 
+        "links": {
+            "item": "//www.loc.gov/pictures/item/2004672770/", 
+            "resource": "//www.loc.gov/pictures/item/2004672770/resource/"
+        }, 
+        "title": "\"Mark Twain\"", 
+        "image": {
+            "alt": "digitized item thumbnail", 
+            "full": "//www.loc.gov/pictures/cdn/service/pnp/cph/3a00000/3a08000/3a08800/3a08820r.jpg", 
+            "square": "//cdn.loc.gov/service/pnp/cph/3a00000/3a08000/3a08800/3a08820_75x75px.jpg", 
+            "thumb": "//cdn.loc.gov/service/pnp/cph/3a00000/3a08000/3a08800/3a08820_150px.jpg"
+        }, 
+        "created": "2016-04-21 00:00:00", 
+        "modified": "2016-04-21 00:00:00", 
+        "collection": [
+            "cph", 
+            "diof", 
+            "pp", 
+            "reconref"
+        ], 
+        "creator": null, 
+        "call_number": "BIOG FILE - Clemens, Samuel Langhorne, 1835-1910--Bust [item] [P&P]", 
+        "medium_brief": "1 photographic print.", 
+        "source_modified": "2013-08-28 00:00:00", 
+        "pk": "2004672770", 
+        "created_published_date": "c1907 May 20.", 
+        "subjects": [
+            "Twain, Mark,--1835-1910.", 
+            "Photographic prints--1900-1910.", 
+            "Portrait photographs--1900-1910."
+        ]
+    }, 
+    {
+        "source_created": "1996-02-29 00:00:00", 
+        "index": 19, 
+        "medium": "1 print : chromolithograph.", 
+        "reproduction_number": "LC-DIG-ds-04498 (digital file from original item)\nLC-USZC4-4294 (color film copy transparency)", 
+        "links": {
+            "item": "//www.loc.gov/pictures/item/96503317/", 
+            "resource": "//www.loc.gov/pictures/item/96503317/resource/"
+        }, 
+        "title": "\"Mark Twain,\" America's best humorist", 
+        "image": {
+            "alt": "digitized item thumbnail", 
+            "full": "//www.loc.gov/pictures/cdn/service/pnp/ds/04400/04498r.jpg", 
+            "square": "//cdn.loc.gov/service/pnp/ds/04400/04498_75x75px.jpg", 
+            "thumb": "//cdn.loc.gov/service/pnp/ds/04400/04498_150px.jpg"
+        }, 
+        "created": "2016-04-21 00:00:00", 
+        "modified": "2016-04-21 00:00:00", 
+        "collection": [
+            "cph", 
+            "diof", 
+            "pp"
+        ], 
+        "creator": "Keppler, Joseph Ferdinand, 1838-1894", 
+        "call_number": "Illus. in AP101.P7 1885 (Case X) [P&P]", 
+        "medium_brief": "1 print :", 
+        "source_modified": "2013-08-30 00:00:00", 
+        "pk": "96503317", 
+        "created_published_date": "c1885 Dec. 16.", 
+        "subjects": [
+            "Twain, Mark,--1835-1910--Public appearances.", 
+            "Stages (Platforms)--1880-1890.", 
+            "Stage lighting--1880-1890.", 
+            "Chromolithographs--Color--1880-1890.", 
+            "Magazine covers--1880-1890.", 
+            "Periodical illustrations--1880-1890."
+        ]
+    }, 
+    {
+        "source_created": "2000-10-31 00:00:00", 
+        "index": 20, 
+        "medium": "1 photographic print : stereograph.", 
+        "reproduction_number": "LC-USZ62-127284 (b&w film copy neg.)", 
+        "links": {
+            "item": "//www.loc.gov/pictures/item/00652751/", 
+            "resource": "//www.loc.gov/pictures/item/00652751/resource/"
+        }, 
+        "title": "[Mark Twain (Samuel Langhorne Clemens), three-quarter length portrait, standing by window, facing left]", 
+        "image": {
+            "alt": "digitized item thumbnail", 
+            "full": "//www.loc.gov/pictures/cdn/service/pnp/cph/3c20000/3c27000/3c27200/3c27284r.jpg", 
+            "square": "//cdn.loc.gov/service/pnp/cph/3c20000/3c27000/3c27200/3c27284_75x75px.jpg", 
+            "thumb": "//cdn.loc.gov/service/pnp/cph/3c20000/3c27000/3c27200/3c27284_150px.jpg"
+        }, 
+        "created": "2016-04-20 00:00:00", 
+        "modified": "2016-04-20 00:00:00", 
+        "collection": [
+            "cph", 
+            "diof", 
+            "pp"
+        ], 
+        "creator": null, 
+        "call_number": "BIOG FILE - Clemens, Samuel Langhorne, 1835-1910--Three quarters [item] [P&P]", 
+        "medium_brief": "1 photographic print :", 
+        "source_modified": "2004-12-10 00:00:00", 
+        "pk": "00652751", 
+        "created_published_date": "c1907.", 
+        "subjects": [
+            "Twain, Mark,--1835-1910.", 
+            "Photographic prints--1900-1910.", 
+            "Portrait photographs--1900-1910.", 
+            "Stereographs--1900-1910."
+        ]
+    }
+]}
