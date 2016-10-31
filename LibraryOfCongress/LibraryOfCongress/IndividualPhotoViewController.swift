@@ -11,12 +11,20 @@ import UIKit
 class IndividualPhotoViewController: UIViewController {
 
     var individualPhoto: Photographs!
-    @IBOutlet weak var largePhoto: UIImageView!
     
+    @IBOutlet weak var largePhoto: UIImageView!
+    @IBOutlet weak var titleLabel: UILabel!
+    @IBOutlet weak var subjectsLabel: UILabel!
+
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        
         largePhoto.downloadImage(urlString: individualPhoto.largePhoto)
-        self.title = individualPhoto.title
+        titleLabel.text = individualPhoto.title
+        subjectsLabel.text = individualPhoto.subjects
+        
+        self.title = "Photo Info"
       
     }
 }
