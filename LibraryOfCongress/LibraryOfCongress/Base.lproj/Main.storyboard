@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11201" systemVersion="15G31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="B9D-ra-bER">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="0uQ-Ke-xKV">
+            <objects>
+                <tableViewController id="01X-S7-U1H" customClass="ViewController" customModule="LibraryOfCongress" customModuleProvider="target" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="121" sectionHeaderHeight="28" sectionFooterHeight="28" id="Tnc-BU-Fy6">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <prototypes>
+                            <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="CongressPhotoCell" rowHeight="121" id="GVo-WL-kgp" customClass="RecordTableViewCell" customModule="LibraryOfCongress" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="92" width="375" height="121"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" multipleTouchEnabled="YES" contentMode="center" tableViewCell="GVo-WL-kgp" id="K7y-o4-08I">
+                                    <frame key="frameInset" width="375" height="120"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="IHj-Li-ryJ">
+                                            <constraints>
+                                                <constraint firstAttribute="height" constant="120" id="j5b-kZ-qmB"/>
+                                                <constraint firstAttribute="width" constant="120" id="rX9-tw-fpq"/>
+                                            </constraints>
+                                        </imageView>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="1" textAlignment="right" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7dc-bi-bca">
+                                            <constraints>
+                                                <constraint firstAttribute="width" constant="71" id="KtR-Rs-ZIG"/>
+                                            </constraints>
+                                            <fontDescription key="fontDescription" name="Optima-Bold" family="Optima" pointSize="28"/>
+                                            <nil key="textColor"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                    </subviews>
+                                    <constraints>
+                                        <constraint firstItem="7dc-bi-bca" firstAttribute="bottom" secondItem="K7y-o4-08I" secondAttribute="bottomMargin" id="7MQ-8P-ouQ"/>
+                                        <constraint firstItem="7dc-bi-bca" firstAttribute="trailing" secondItem="K7y-o4-08I" secondAttribute="trailingMargin" id="7an-vQ-zhH"/>
+                                        <constraint firstItem="IHj-Li-ryJ" firstAttribute="top" secondItem="K7y-o4-08I" secondAttribute="top" id="UXR-Pe-W6O"/>
+                                        <constraint firstItem="IHj-Li-ryJ" firstAttribute="leading" secondItem="K7y-o4-08I" secondAttribute="leading" constant="127" id="bUI-46-ZKi"/>
+                                        <constraint firstAttribute="bottom" secondItem="IHj-Li-ryJ" secondAttribute="bottom" id="jtS-Tc-dAo"/>
+                                        <constraint firstAttribute="trailing" secondItem="IHj-Li-ryJ" secondAttribute="trailing" constant="128" id="rXr-fm-PeJ"/>
+                                        <constraint firstItem="7dc-bi-bca" firstAttribute="trailing" secondItem="K7y-o4-08I" secondAttribute="trailingMargin" id="ulE-g5-A9t"/>
+                                        <constraint firstItem="7dc-bi-bca" firstAttribute="bottom" secondItem="K7y-o4-08I" secondAttribute="bottomMargin" id="xao-we-pa0"/>
+                                    </constraints>
+                                </tableViewCellContentView>
+                                <edgeInsets key="layoutMargins" top="8" left="8" bottom="8" right="8"/>
+                                <connections>
+                                    <outlet property="indexLabel" destination="7dc-bi-bca" id="xWe-IU-Onj"/>
+                                    <outlet property="squarePhoto" destination="IHj-Li-ryJ" id="txG-Hx-c9C"/>
+                                    <segue destination="XEw-Nw-Vae" kind="show" identifier="goToDetailsPage" id="szr-cb-sBj"/>
+                                </connections>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="01X-S7-U1H" id="9J7-7G-1zv"/>
+                            <outlet property="delegate" destination="01X-S7-U1H" id="uy7-vF-XjP"/>
+                        </connections>
+                    </tableView>
+                    <navigationItem key="navigationItem" id="GTf-wi-YPt"/>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Pun-sA-mX2" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1069.5999999999999" y="95.802098950524751"/>
+        </scene>
+        <!--Detail View Controller-->
+        <scene sceneID="bgP-S3-RNj">
+            <objects>
+                <viewController id="XEw-Nw-Vae" customClass="DetailViewController" customModule="LibraryOfCongress" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="vuL-Ie-plZ"/>
+                        <viewControllerLayoutGuide type="bottom" id="r0M-Cq-Lia"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="wc0-IZ-JKZ">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="mQ0-OU-lDN">
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="mQ0-OU-lDN" secondAttribute="height" multiplier="375:337" id="FqY-yQ-8sb"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TtO-lf-xcc">
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="147" id="9ys-HB-oaf"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="mQ0-OU-lDN" firstAttribute="top" secondItem="vuL-Ie-plZ" secondAttribute="bottom" constant="8" id="1CZ-oB-jdt"/>
+                            <constraint firstItem="TtO-lf-xcc" firstAttribute="trailing" secondItem="wc0-IZ-JKZ" secondAttribute="trailingMargin" id="FCi-vi-6jb"/>
+                            <constraint firstItem="TtO-lf-xcc" firstAttribute="top" secondItem="mQ0-OU-lDN" secondAttribute="bottom" constant="8" id="KqG-ue-o9c"/>
+                            <constraint firstItem="r0M-Cq-Lia" firstAttribute="top" secondItem="mQ0-OU-lDN" secondAttribute="bottom" constant="258" id="QTc-tg-oUL"/>
+                            <constraint firstItem="TtO-lf-xcc" firstAttribute="leading" secondItem="wc0-IZ-JKZ" secondAttribute="leadingMargin" id="XpM-yl-vdf"/>
+                            <constraint firstItem="mQ0-OU-lDN" firstAttribute="leading" secondItem="wc0-IZ-JKZ" secondAttribute="leading" id="aLY-d3-7sb"/>
+                            <constraint firstAttribute="trailing" secondItem="mQ0-OU-lDN" secondAttribute="trailing" id="zy9-w4-cxy"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="Subject" destination="TtO-lf-xcc" id="OY1-z9-Nq7"/>
+                        <outlet property="fullSizeImage" destination="mQ0-OU-lDN" id="eu8-Fb-AWa"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="MOQ-pi-PbW" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1788" y="95.802098950524751"/>
+        </scene>
+        <!--LibraryOfCongress-->
+        <scene sceneID="gSE-9L-YLy">
+            <objects>
+                <navigationController title="LibraryOfCongress" automaticallyAdjustsScrollViewInsets="NO" id="B9D-ra-bER" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="sPj-Wq-aUD">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="01X-S7-U1H" kind="relationship" relationship="rootViewController" id="94l-vm-Tkh"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="lMw-go-Jaa" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="130.40000000000001" y="95.802098950524751"/>
+        </scene>
+    </scenes>
+</document>
