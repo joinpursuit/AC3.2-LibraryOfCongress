@@ -10,7 +10,7 @@ import UIKit
 
 class LibraryOfCongressTableViewController: UITableViewController {
     
-    var print = [Print]()
+    var prints = [Print]()
     var endpoint = "https://loc.gov/pictures/search/?q=mark%20twain&fo=json"
     
     //    Library of Congress Prints & Photographs
@@ -30,7 +30,7 @@ class LibraryOfCongressTableViewController: UITableViewController {
         
         APImanager.manager.getData(endpoint: endpoint) { (data: Data?) in
             if data != nil {
-                self.print = Print.getData(from: data!)!
+                self.prints = Print.getData(from: data!)!
             }
             
             DispatchQueue.main.async {
@@ -52,7 +52,7 @@ class LibraryOfCongressTableViewController: UITableViewController {
     }
     
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return print.count
+        return prints.count
     }
     
     
@@ -60,9 +60,9 @@ class LibraryOfCongressTableViewController: UITableViewController {
         let cell = tableView.dequeueReusableCell(withIdentifier: "LibraryOfCongressCell", for: indexPath)
         //use of closure with the image extension of and it will fix the bug
         DispatchQueue.main.async {
-            cell.textLabel?.text = self.print[indexPath.row].title
+            cell.textLabel?.text = self.prints[indexPath.row].title
             cell.detailTextLabel?.text = " "
-            cell.imageView?.downloadImage(urlString: self.print[indexPath.row].thumbURLString)
+            cell.imageView?.downloadImage(urlString: self.prints[indexPath.row].thumbURLString)
             cell.setNeedsLayout()
         }
         
@@ -79,18 +79,21 @@ class LibraryOfCongressTableViewController: UITableViewController {
         
         return cell
     }
-    
-    override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-        let selectedPrint = self.print[indexPath.row]
-        performSegue(withIdentifier: "libraryOfCongressDetailViewSegue", sender: selectedPrint)
-    }
+
+//    override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+//        let selectedPrint = self.print[indexPath.row]
+//        performSegue(withIdentifier: "libraryOfCongressDetailViewSegue", sender: selectedPrint)
+//    }
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         if segue.identifier == "libraryOfCongressDetailViewSegue" {
-         let detailLibraryOfCongressViewController = segue.destination as? DetailLibraryOfCongressViewController
-            let selectedPrint = sender as? Print
-            detailLibraryOfCongressViewController?.onePrint = selectedPrint
+            if let detailLibraryOfCongressViewController = segue.destination as? DetailLibraryOfCongressViewController,
+                let cell = sender as? UITableViewCell,
+                let indexPath = tableView.indexPath(for: cell) {
+                let selectedPrint = self.prints[indexPath.row]
+                //let selectedPrint = sender as? Print
+                detailLibraryOfCongressViewController.onePrint = selectedPrint
+            }
         }
     }
-    
 }

@@ -64,7 +64,7 @@ struct Print {
                 let validPrint = Print(title: title,
                                        thumbURLString: thumbImageURLaddedHTTPString,
                                        fullImageURLString: fullImageURLaddedHTTPString,
-                                       subjectList: subjectLists ?? ["N/A", "N/A"])
+                                       subjectList: subjectLists ?? [])
                 
                 prints?.append(validPrint)
             }
