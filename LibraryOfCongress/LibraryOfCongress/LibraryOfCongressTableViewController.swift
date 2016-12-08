@@ -13,17 +13,17 @@ class LibraryOfCongressTableViewController: UITableViewController {
     var prints = [Print]()
     var endpoint = "https://loc.gov/pictures/search/?q=mark%20twain&fo=json"
     
-    //    Library of Congress Prints & Photographs
+    //Library of Congress Prints & Photographs
     //
-    //    And now for something completely different...
+    //And now for something completely different...
     //    Object: Build another table with thumbs linking to a full view.
     //
-    //    Endpoint:
+    //Endpoint:
     //
-    //    https://loc.gov/pictures/search/?q=mark%20twain&fo=json
-    //    Title and thumb in table view.
+    //https://loc.gov/pictures/search/?q=mark%20twain&fo=json
+    //Title and thumb in table view.
     //
-    //    Full image, title, and subject list on the detail page
+    //Full image, title, and subject list on the detail page
     
     override func viewDidLoad() {
         super.viewDidLoad()
