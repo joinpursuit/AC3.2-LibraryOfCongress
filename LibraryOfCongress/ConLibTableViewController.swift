@@ -51,7 +51,6 @@ class ConLibTableViewController: UITableViewController {
                 cell.setNeedsLayout()
             }
         }
-
         return cell
     }
     
